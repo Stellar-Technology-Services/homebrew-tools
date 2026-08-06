@@ -5,7 +5,7 @@ A Homebrew tap for tools maintained here.
 ## Install
 
 ```sh
-brew tap pradeep/tools
+brew tap Stellar-Technology-Services/tools
 ```
 
 ## Formulae
