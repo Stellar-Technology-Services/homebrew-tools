@@ -6,8 +6,9 @@ A Homebrew tap for tools maintained here.
 
 ```sh
 brew tap Stellar-Technology-Services/tools
+brew install kaas
 ```
 
 ## Formulae
 
-- `sas` — recipe scaffold; package details are to be determined.
+- `kaas` — persistent local Linux workspaces for coding agents ([KaaS](https://github.com/Stellar-Technology-Services/kaas))
