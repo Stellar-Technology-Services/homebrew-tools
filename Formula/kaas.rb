@@ -17,18 +17,18 @@ class Kaas < Formula
   # Default: install prebuilt release binaries.
   on_macos do
     on_arm do
-      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.6/kaas_0.1.6_darwin_arm64.tar.gz"
-      sha256 "74cbb868fd2806a461e172afa8ddaebd4e531087ca3d3d045ece15e688df5ce3"
+      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.8/kaas_0.1.8_darwin_arm64.tar.gz"
+      sha256 "1a71cfe2e249d8c3761f9d7beae0c6f74ee72ea901f93d01241c878d9c509990"
     end
     on_intel do
-      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.6/kaas_0.1.6_darwin_amd64.tar.gz"
-      sha256 "86c95daffae6c8ed3c74e4517a0fb0559b4a9a3cae4384e04593180a3319c1e7"
+      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.8/kaas_0.1.8_darwin_amd64.tar.gz"
+      sha256 "84261d6f047e3e2680209db7a8c1b75a3787cb949e5478137bb5a5c93b10582a"
     end
   end
 
   def install
     if build.head?
-      ldflags = "-X github.com/Stellar-Technology-Services/agent-sandbox/internal/cli.Version=#{version}"
+      ldflags = "-X github.com/Stellar-Technology-Services/kaas/internal/cli.Version=#{version}"
       system "go", "build", *std_go_args(ldflags:), "./cmd/kaas"
     else
       bin.install "kaas"
