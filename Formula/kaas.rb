@@ -1,10 +1,10 @@
 class Kaas < Formula
   desc "Persistent local Linux workspaces for coding agents"
-  homepage "https://github.com/Stellar-Technology-Services/kaas"
+  homepage "https://github.com/kaas-dev/kaas"
 
   # Build from source: brew install --HEAD kaas
   head do
-    url "https://github.com/Stellar-Technology-Services/kaas.git", branch: "main"
+    url "https://github.com/kaas-dev/kaas.git", branch: "main"
     depends_on "go" => :build
   end
 
@@ -17,12 +17,12 @@ class Kaas < Formula
   # Default: install prebuilt release binaries.
   on_macos do
     on_arm do
-      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.9/kaas_0.1.9_darwin_arm64.tar.gz"
-      sha256 "ad19c9ba09581945fdff469f5c5f337bf274f03dcf644f85d259c18c76ccebfe"
+      url "https://github.com/kaas-dev/kaas/releases/download/v0.1.12/kaas_0.1.12_darwin_arm64.tar.gz"
+      sha256 "e223ab659df9cbb043b4bcf232a2b1cdbfe460b64715b319caa4aa64f2aeb2aa"
     end
     on_intel do
-      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.9/kaas_0.1.9_darwin_amd64.tar.gz"
-      sha256 "da462f51d03ebacab4bd7126b6814b3ac0e824963bd2f10099c118ff4b05b82c"
+      url "https://github.com/kaas-dev/kaas/releases/download/v0.1.12/kaas_0.1.12_darwin_amd64.tar.gz"
+      sha256 "6ce866cd5adf065ead3b2cc5a6042912344d8c1a96d39226f69aa7b2bf19f632"
     end
   end
 
