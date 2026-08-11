@@ -17,12 +17,12 @@ class Kaas < Formula
   # Default: install prebuilt release binaries.
   on_macos do
     on_arm do
-      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.5/kaas_0.1.5_darwin_arm64.tar.gz"
-      sha256 "1e523b092c2777f957d97dce5ebc5509bed29346ea819bc7625be8a71542aec4"
+      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.6/kaas_0.1.6_darwin_arm64.tar.gz"
+      sha256 "74cbb868fd2806a461e172afa8ddaebd4e531087ca3d3d045ece15e688df5ce3"
     end
     on_intel do
-      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.5/kaas_0.1.5_darwin_amd64.tar.gz"
-      sha256 "82a05dac1e155f33f8bd3cd18cb765fa7568b10be731fe5c54db9f6342508b56"
+      url "https://github.com/Stellar-Technology-Services/kaas/releases/download/v0.1.6/kaas_0.1.6_darwin_amd64.tar.gz"
+      sha256 "86c95daffae6c8ed3c74e4517a0fb0559b4a9a3cae4384e04593180a3319c1e7"
     end
   end
 
