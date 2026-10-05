@@ -18,3 +18,4 @@ brew install --HEAD kaas
 ## Formulae
 
 - `kaas` — persistent local Linux workspaces for coding agents ([KaaS](https://github.com/Stellar-Technology-Services/kaas))
+- `vidprep` — transcribe local videos to VTT, Markdown, and HTML with caption player pages ([videoshareprep](https://github.com/Stellar-Technology-Services/videoshareprep))
